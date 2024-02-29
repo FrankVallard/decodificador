@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metaetiquetas para configuración básica -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Título de la página -->
+    <title>Encriptador y Desencriptador</title>
+</head>
+<body>
+    <!-- Contenedor principal -->
+       <div class="container">
+        <h1>Cifrado y Desifrado</h1>
+        <!-- Cuadro de entrada y salida de texto -->
+        <textarea id="inputText" placeholder="Ingrese o pegue el texto"></textarea>
+        <textarea id="outputText" placeholder="Texto encriptado o desencriptado"></textarea>
+
+        <!-- Botones para encriptar, desencriptar, copiar, pegar y limpiar -->
+        <div class="buttons">
+            <button onclick="encriptarTexto()" class="button-3d">Encriptar</button>
+            <button onclick="desencriptarTexto()" class="button-3d">Desencriptar</button>
+            <button onclick="copiarTexto()" class="button-3d">Copiar Texto</button>
+            <button onclick="pegarTexto()" class="button-3d">Pegar Texto</button>
+            <button onclick="limpiarCampos()" class="button-3d">Limpiar</button>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo de script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+/* Estilos generales del cuerpo del documento */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url(img/Fondo\ para\ codificados.png);
+    background-size: 100% 100%; /* Ajusta la imagen al tamaño de la ventana */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #ffffff;
+  }
+
+/* Estilos del contenedor principal */
+.container {
+    text-align: center;
+    background-color: rgba(17, 227, 220, 0.893);
+    padding: 50px;
+    border-radius: 10px;
+    width: 50%; /* Ajusta el ancho del contenedor principal */
+    max-width: 800px; /* Establece un ancho máximo para el contenedor principal */
+    margin: auto; /* Centra el contenedor en la pantalla */
+}
+
+/* Estilos del área de texto */
+textarea {
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    resize: none;
+    border: 2px solid#140242dc;
+}
+
+/* Estilos de los botones */
+.buttons {
+    display: flex;
+    justify-content:center; 
+    margin-top: 15px;
+}
+
+.button-3d {
+    padding: 12px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid #140242;
+    border-radius: 10px;
+    background-color: #1656eb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button-3d:hover {
+    transform: translateY(-3px);
+    background-color: #140242;
+}
